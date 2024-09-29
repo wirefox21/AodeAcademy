@@ -1,0 +1,63 @@
+Last login: Sun Sep 29 20:56:22 on ttys000
+wirefox21@naganoyuutanoMacBook-Pro ~ % touch Droid.java
+
+wirefox21@naganoyuutanoMacBook-Pro ~ % nano Droid.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  UW PICO 5.09                    File: Droid.java                    Modified  
+
+public class Droid {
+    String name;  // ドロイドの名前
+    int batteryLevel;  // バッテリーのレベル
+
+    // 引数付きのコンストラクタ
+    public Droid(String droidName) {
+        name = droidName;  // droidNameに渡された値("Codey")をnameフィールドに$
+        batteryLevel = 100;  // バッテリーレベルを初期化
+    }
+
+    public static void main(String[] args) {
+        // Droid オブジェクトを作成し、名前として "Codey" を渡す
+        Droid codey = new Droid("Codey");
+
+        // name フィールドを表示
+        System.out.println(codey.name);  // 出力: Codey
+
+    }
+}
+
+git init
+git add -A
+git commit -m 'メッセージ'
+git remote add origin https://github.com/wirefox21/AodeAcademy.git
+git push origin master
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
